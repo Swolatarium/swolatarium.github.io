@@ -1,0 +1,286 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  color: #f9f1f1;
+  font-size: 1.2rem;  
+  background-color: #000000;
+}
+
+@media (max-width: 500px) {
+	.footer {
+	  font-size: xx-small;
+	}	
+}
+
+
+@media (max-width: 500px) {
+	.nav {
+	  font-size: x-small;
+	}	
+}
+
+
+
+.container {
+    max-width: 100%;
+}
+
+
+#menu-outer {
+
+        background-color: #46a3b6;
+}
+
+
+.nav-outer {
+  background-color:#ff0000;
+}
+
+.nav {
+  max-width: 1000px;
+  text-transform: uppercase;
+}
+
+.nav .col a {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.nav .col {
+
+}
+
+.menu a.active {
+  background-color: #46a3b6;
+  color: white;
+}
+
+
+
+
+div.topbar {
+  max-width: 1000px;
+  margin: auto;
+
+
+}
+
+
+.footer {
+  color: white;
+          background-color: #ff0000;
+}
+
+.rightcorner {
+  text-align: right;
+}
+
+.rightcorner a {
+  color: white;
+}
+
+.splash {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.portfolio {
+  background-color: #dae2ee;
+  text-align: center;
+}
+
+ img {
+  max-width: 98%;
+  height: auto;
+  border: 0;
+}
+
+.directory img {
+  max-width: 98%;
+  height: auto;
+  border: 0;
+}
+
+.thumbnails img {
+  max-width: 24%;
+  padding: 1%;
+}
+
+.menu .col {
+  text-align: center;
+}
+
+.menu { 
+  text-align: center;
+  margin: auto;
+}
+
+.menu a {
+  color: #003366;
+}
+
+
+.subtitle {
+  color: #dae2ee;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+div.midbar {
+  max-width: 1000px;
+  margin: auto;
+
+}
+
+.content {
+  background-color: #000000;
+}
+
+.infophoto {
+  padding: 10px;
+}
+.imageright img {
+  padding: 1%;
+  float: right;
+}
+.imageleft img {
+  padding: 1%;
+  float: right;
+}
+
+.morethumbs img {
+  max-width: 32%;
+  padding: 1%;
+}
+
+.colthumbs {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .colthumbs {
+    width: 100%;
+  }
+}
+
+#carousel {
+    width: 90%;
+    height: 315px;
+    background-color: #000000;
+    overflow: auto;
+    white-space:nowrap;
+    margin:auto;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+
+.showcase img {
+  display: block;
+  width:auto;
+  max-height:600px;
+}
+
+@media screen and (max-width: 500px) {
+  .showcase {
+    max-width: 98%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .showcase img {
+    max-width: 98%;
+    height: auto;
+  }
+}
+
+@media screen and (max-height: 500px) {
+   #carousel {
+     display: none;  
+   }
+}
+@media (min-height: 500px) {
+   #smallcarousel {
+     display: none;  
+   }
+}
+
+.highlight img {
+  padding: 1%;
+  text-align: center;
+}
+
+
+.highlight {
+  padding: 1%;
+  text-align: center;
+}
+
+.flagleft img {
+  float: left;
+
+    height: 100px;
+}
+.flagright img {
+  float: right;
+
+    height: 100px;
+}
+.flagmiddle {
+  background-image: url("flagmiddle.jpg");
+  height: 100%;
+  width:auto;
+  margin:auto;
+}
+
+
+.back {
+  padding: 1%;
+
+}
+
+	#mc_embed_signup{background:#46a3b6; clear:left; margin: 1%; font:14px Helvetica,Arial,sans-serif;}
+
+.mailchimp {
+  background-color: #46a3b6;
+
+}
